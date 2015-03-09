@@ -14,7 +14,6 @@ html, body {
 .masthead-intro,
 .content-footer {
   text-align: center;
-  
 }
 
 .masthead {
@@ -54,7 +53,7 @@ h1 {
 .hometown,
 .aboutme,
 .projects {
-  max-width: 38em;
+  max-width: 40em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
@@ -81,14 +80,16 @@ h1 {
   letter-spacing: 0.05em;
 }
 
-.aboutme > h2 {
+h2 {
   /*Typography Declarations*/
   font-family: "Gentium Book Basic", Georgia, Serif;
   font-size: 1em;
   font-weight: bold;
   color: #cccc00;
   text-transform: uppercase;
-  
+}
+.projects > h2 {
+  margin-top: 1em;
 }
 
 a:link {
